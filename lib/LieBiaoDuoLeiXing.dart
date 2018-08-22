@@ -23,7 +23,7 @@ class DuoLeiLieBiao extends StatelessWidget {
         (i) =>
     i % 6 == 0
         ? new HeadingItem('heading $i')
-        : new HeadingItem('Messageingbody $i'),
+        : new MessageItem('Sender $i', 'Messageingbody $i'),
   );
 
   @override
