@@ -25,7 +25,8 @@ class TorApp extends StatelessWidget {
           new IconButton(
               icon: new Icon(Icons.search),
               tooltip: 'Sou Suo',
-              onPressed: null),
+              onPressed: null
+          ),
         ],
       ),
       body: new Center(

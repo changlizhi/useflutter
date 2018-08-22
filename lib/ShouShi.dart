@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() =>
-    runApp(new MaterialApp(
-      title: '',
-      home: new MyButton(),
-    ),
+    runApp(
+      new MaterialApp(
+        title: '',
+        home: new MyButton(),
+      ),
     );
 
 class MyButton extends StatelessWidget {

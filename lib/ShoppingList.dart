@@ -1,30 +1,32 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(new MaterialApp(
-    title: 'Shopping App',
-    home: new ShoppingList(
-      products: <Product>[
-        new Product(name: 'Eggs'),
-        new Product(name: 'Flour'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-        new Product(name: 'Chocolate chips'),
-      ],
-    ),
-  ));
+  runApp(
+      new MaterialApp(
+        title: 'Shopping App',
+        home: new ShoppingList(
+          products: <Product>[
+            new Product(name: 'Eggs'),
+            new Product(name: 'Flour'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+            new Product(name: 'Chocolate chips'),
+          ],
+        ),
+      )
+  );
 }
 
 class Product {
